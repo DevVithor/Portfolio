@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap");
+
+:root {
+  --grey: #9db2bf;
+  --white: #dde6ed;
+  --dark__blue: #27374d;
+  --blue: #526d82;
+
+  --main-font: "Krona One", sans-serif;
+  --segund-font: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 2% 0% 0% 15%;
+}
+.header__menu {
+  display: flex;
+  gap: 80px;
+}
+.header__menu__link {
+  font-family: var(--segund-font);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.presentation {
+  margin: 5% 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__presentation {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.content__presentation__title {
+  font-size: 36px;
+  font-family: var(--main-font);
+}
+.content__presentation__paragraph {
+  font-size: 24px;
+  font-family: var(--segund-font);
+}
+
+.content__presentation__photo {
+  width: 520px;
+  height: 620px;
+}
+
+.presentation__button {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.presentation__links__caption {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--dark__blue);
+  color: var(--white);
+}
+
+.featured__title {
+  color: var(--blue);
+}
+
+.presentation__button__links {
+  justify-content: center;
+  gap: 16px;
+  display: flex;
+  width: 378px;
+  text-align: center;
+  border-radius: 8px;
+  border: 2px solid var(--blue);
+  font-size: 24px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  color: var(--white);
+  font-family: var(--segund-font);
+  font-weight: 600;
+}
+
+.presentation__button__links:hover {
+  background-color: var(--grey);
+}
+
+.presentation__content__text {
+  font-size: 24px;
+  font-family: var(--segund-font);
+}
+
+.presentation__content__text__space {
+  margin-bottom: 5%;
+}
