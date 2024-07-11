@@ -1,64 +1,126 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
-  <body>
-    <header class="header">
-      <nav class="header__menu">
-        <a class="header__menu__link" href="index.html">Home</a>
-        <a class="header__menu__link" href="about.html">Sobre mim</a>
-        <a class="header__menu__link" href="curriculum.html">Curriculo</a>
-      </nav>
-    </header>
-    <main class="presentation">
-      <section class="content__presentation">
-        <h1 class="content__presentation__title">
-          Eleve seu negócio digital a outro nível
-          <strong class="featured__title">
-            um Desenvolvedor de qualidade!</strong
-          >
-        </h1>
-        <p class="content__presentation__paragraph">
-          Olá! Sou Vithor Saito, desenvolvedor Back-end com especialidade em
-          JavaScript, Python, MySQL, HTML e CSS. Ajudo pequenos negócios e
-          designers a colocarem em prática boas ideias. Vamos conversar?
-        </p>
-        <div class="presentation__button">
-          <h2 class="presentation__links__caption">Acesse minhas redes:</h2>
-          <a
-            class="presentation__button__links"
-            href="https://github.com/devVithor"
-          >
-            <img src="assents/github.png" />
-            Github
-          </a>
-          <a
-            class="presentation__button__links"
-            href="https://www.linkedin.com/in/vithor-saito/"
-          >
-            <img src="assents/linkedin.png" />
-            Linkedin
-          </a>
-          <a
-            class="presentation__button__links"
-            href="https://www.instagram.com/dev_vithor/"
-          >
-            <img src="assents/instagram.png" />
-            Instagram
-          </a>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body background="assents/stars-galaxy-3840x2160-10307.jpg">
+    <nav>
+        <ul>
+            <li><a href="#sessao1">Home</a></li>
+            <li><a href="#sessao2">Sobre</a></li>
+            <li><a href="#sessao3">Projetos</a></li>
+            <li><a href="#sessao4">contato</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+
+    <section id="sessao1">
+        <div class="start">
+            <img src="assents/eu2.0.png" alt="foto">
+        
+            <div class="text">
+                <h1>Olá me chamo Vithor Saito</h1>
+                <h1>Desenvolvedor Back-end</h1>
+                <p>
+                    Desenvolvo diversos tipos de sistemas utilizando boas praticas de desenvolvimento, caso tenha interesse estou a disposição
+                </p>
+            </div>
         </div>
-      </section>
-      <img
-        class="content__presentation__photo"
-        src="./assents/vithor.jpg"
-        alt="Foto de Vithor Saito"
-      />
-    </main>
-    <footer></footer>
-  </body>
+    </section>
+    
+    <section id="sessao2">
+        <div class="about">
+            <h2>About</h2>
+                <p>
+                    Minhas principais habilidades estão no desenvolvimento backend, onde possuo experiência sólida. Meu objetivo pessoal é me tornar cada vez melhor no que faço, buscando constantemente formas de melhorar. Sou comunicativo, gosto de trabalhar em equipe e valorizo a troca de ideias. Tenho uma abordagem focada na resolução de problemas, o que me permite lidar eficazmente com desafios complexos. Trabalho com empenho para contribuir com o sucesso dos projetos e a satisfação dos clientes. Estou sempre aberto a novas experiências e a aprender mais, aprimorando minhas habilidades técnicas e interpessoais.
+                 
+                </p>
+            <h2>Soft Skill</h2>
+            <div class="icons">
+            <i class="devicon-typescript-plain"></i>
+            <i class="devicon-nodejs-plain-wordmark"></i>
+            <i class="devicon-javascript-plain"></i>
+            <i class="devicon-npm-original-wordmark"></i>
+            <i class="devicon-mysql-plain-wordmark"></i>
+            <i class="devicon-postman-plain-wordmark"></i>
+            <i class="devicon-postgresql-plain"></i>
+            <i class="devicon-css3-plain"></i>
+            <i class="devicon-docker-plain-wordmark"></i>
+            <i class="devicon-express-original-wordmark"></i>
+            <i class="devicon-github-original-wordmark"></i>
+            <i class="devicon-html5-plain-wordmark"></i>
+            <i class="devicon-powershell-plain"></i>
+            <i class="devicon-visualstudio-plain"></i>
+            <i class="devicon-vitest-plain"></i>
+            <i class="devicon-windows11-original-wordmark"></i>
+            <i class="devicon-prisma-original-wordmark"></i>
+            <i class="devicon-gitlab-plain-wordmark"></i>
+            </div>
+        </div>
+        
+    </section>
+
+    <section id="sessao3">
+        <div class="grid" data-columns="3">
+
+            <div class="card">
+                <a href="https://github.com/DevVithor/Telegram_Bot">
+                <h3>Telegram BOT</h3>
+                <img src="assents/telegras.png" alt="foto">
+                <p>Este projeto envolve a integração com a API do Telegram, utilizando TypeScript para a lógica de programação e PostgreSQL para o gerenciamento de dados. O foco principal está em aplicar conceitos sólidos de engenharia de software, como os princípios SOLID e a Clean Architecture, para criar um sistema escalável, manutenível e eficiente.</p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="https://github.com/DevVithor/Payment_System">
+                <h3>Cobranças EFI</h3>
+                <img src="assents/efis2.jpg" alt="foto">
+                <p>Este projeto envolve a integração com a plataforma de pagamentos Efi, utilizando TypeScript para a lógica de programação e MySQL para o gerenciamento de dados. O foco principal está em explorar as partes de segurança da integração, garantindo que as transações sejam processadas de maneira segura e confiável  </p>
+                </a>
+            </div>
+            <div class="card">
+                <a href="#">
+                <h3>Sessao 8</h3>
+                <img src="" alt="">
+                <p>loading...</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sessao4">
+
+        <h4>Entre em contato</h4>
+
+        <div class="contato">
+            <div class="Contatos">
+                <p>
+                    Email:
+                </p>
+                <p>
+                    Telefone:
+                </p>
+            </div>
+            <div class="formas">
+                <p>
+                    vithor-saito@gmail.com
+                </p>
+                <p>
+                    (41)98769-4897
+                </p>
+            </div>
+           
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="rodapé">
+
+    </div>
+</footer>
+</body>
 </html>
